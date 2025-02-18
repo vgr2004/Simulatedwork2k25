@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,10 +6,9 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
-
+  <h1>Whac-a-Mole!</h1>
   <h2>Your score:</h2>
   <h2 id="score">0</h2>
-
   <h2>Time Left:</h2>
   <h2 id="time-left">60</h2>
 
@@ -25,6 +23,9 @@
     <div class="square" id="8"></div>
     <div class="square" id="9"></div>
   </div>
+
+  <audio id="hit-sound" src="hit.mp3"></audio>
+  <audio id="game-over-sound" src="game-over.mp3"></audio>
 
   <script src="app.js"></script>
 </body>
